@@ -1,0 +1,21 @@
+[package]
+name = "ArNosurgeDeluxeSwitchEngPatch"
+version = "0.1.0"
+authors = []
+edition = "2022"
+
+[package.metadata.skyline]
+titleid = "01003cf0128de000" # Ar nosurge: Ode to an Unborn Star Deluxe
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+skyline = { git = "https://github.com/ultimate-research/skyline-rs.git" }
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+lto = true

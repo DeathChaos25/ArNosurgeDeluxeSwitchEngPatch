@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="SHIFT-JIS"?>
+<Root>
+	<SysInfo Text="Displays currently possessed items."/>
+	<SysInfo Text="Select equipment."/>
+	<SysInfo Text="Displays status."/>
+	<SysInfo Text="Displays Song Magic."/>
+	<SysInfo Text="Displays skills."/>
+	<SysInfo Text="Displays the Encyclopedia."/>
+	<SysInfo Text="Displays History."/>
+	<SysInfo Text="System settings."/>
+	<SysInfo Text="Displays currently possessed items."/>
+	<SysInfo Text="Equip cathodes to enhance weapon."/>
+	<SysInfo Text="Equip TxBIOS to enhance Song Magic."/>
+	<SysInfo Text="Equip RNA to enhance defenses."/>
+	<SysInfo Text="Change costume."/>
+	<SysInfo Text="Displays parameters."/>
+	<SysInfo Text="Displays skills."/>
+	<SysInfo Text="Displays equipped Genometrica Crystals."/>
+	<SysInfo Text="Displays character details."/>
+	<SysInfo Text="Displays a summary of Song Magic."/>
+	<SysInfo Text="Displays a summary of skills."/>
+	<SysInfo Text="Displays a synopsis."/>
+	<SysInfo Text="Adjust the volume of voices."/>
+	<SysInfo Text="Adjust the volume of BGMs."/>
+	<SysInfo Text="Adjust the volume of sound effects."/>
+	<SysInfo Text="Adjust the volume of movies."/>
+	<SysInfo Text="Adjust difficulty."/>
+	<SysInfo Text="Adjust conditions for event skips."/>
+	<SysInfo Text="Revert all settings to default."/>
+	<SysInfo Text="Complete settings."/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo/>
+	<SysInfo Text="Change operation party."/>
+	<SysInfo Text="Check what to do next."/>
+	<SysInfo Text="Save progress data."/>
+	<SysInfo Text="Abandon progress, and load save data."/>
+	<SysInfo Text="Connects to the network."/>
+	<SysInfo Text="Connects to cloud data."/>
+	<SysInfo Text="Receive purchased items."/>
+	<SysInfo Text="Receive experience points."/>
+	<SysInfo Text="Select items to receive."/>
+	<SysInfo Text="Receive data from other contents."/>
+	<SysInfo Text="Send data to other contents."/>
+	<SysInfo Text="Accept transferred items."/>
+	<SysInfo Text="Check progress of other contents."/>
+	<SysInfo Text="Select items to accept."/>
+	<SysInfo Text="Perform a Dive."/>
+	<SysInfo Text="Leave shop."/>
+	<SysInfo Text="Select character."/>
+	<SysInfo Text="Select the episode to play."/>
+	<SysInfo Text="Select the character for Purification."/>
+	<SysInfo Text="Select costume to use for Purification."/>
+	<SysInfo Text="Enhance character through Purification."/>
+	<SysInfo Text="Chat to deepen bonds."/>
+	<SysInfo Text="Purchase items."/>
+	<SysInfo Text="Sell items."/>
+	<SysInfo Text="Perform Synthesis."/>
+	<SysInfo Text="A little chit-chat."/>
+	<SysInfo Text="Select item to purchase."/>
+	<SysInfo Text="Select number to purchase."/>
+	<SysInfo Text="Select item to sell."/>
+	<SysInfo Text="Select number to sell."/>
+	<SysInfo Text="Select item to Synthesize."/>
+	<SysInfo Text="Select number to Synthesize."/>
+	<SysInfo Text="Select Synthesizable material."/>
+	<SysInfo Text="Select number to Synthesize."/>
+	<SysInfo Text="Listen to BGMs."/>
+	<SysInfo Text="Listen to songs."/>
+	<SysInfo Text="Watch movies."/>
+	<SysInfo Text="View stills."/>
+	<SysInfo Text="Replay Purification."/>
+	<SysInfo Text="Replay Synthesis events."/>
+	<SysInfo Text="View models."/>
+	<SysInfo Text="View the Encyclopedia."/>
+	<SysInfo Text="Select BGM to listen to."/>
+	<SysInfo Text="Select song to listen to."/>
+	<SysInfo Text="Select movie to watch."/>
+	<SysInfo Text="Select model to view."/>
+	<SysInfo Text="Select still to view."/>
+	<SysInfo Text="Select event still to view."/>
+	<SysInfo Text="Select background still to view."/>
+	<SysInfo Text="Select bonus still to view."/>
+	<SysInfo Text="View a summary of what happened so far."/>
+	<SysInfo Text="Check obtained items."/>
+	<SysInfo Text="Check defeated monsters."/>
+	<SysInfo Text="Check characters met."/>
+	<SysInfo Text="Check obtained Genometrica Crystals."/>
+	<SysInfo Text="Check obtained Song Magic."/>
+	<SysInfo Text="Check terms used in game."/>
+	<SysInfo Text="Select summary."/>
+	<SysInfo Text="Select item."/>
+	<SysInfo Text="Select monster."/>
+	<SysInfo Text="Select character."/>
+	<SysInfo Text="Select Genometrica Crystal."/>
+	<SysInfo Text="Select Song Magic."/>
+	<SysInfo Text="Select term."/>
+	<SysInfo Text="Check acquired skills."/>
+	<SysInfo Text="Check various supplementary info."/>
+	<SysInfo Text="Select summary."/>
+	<SysInfo Text="Select supplementary info."/>
+	<SysInfo Text="Check obtained Friend Skills."/>
+	<SysInfo Text="Select Friend Skill."/>
+	<SysInfo Text="Check installed DLC."/>
+	<SysInfo Text="This is the currently installed DLC."/>
+</Root>

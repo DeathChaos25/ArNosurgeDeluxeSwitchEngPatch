@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="SHIFT-JIS"?>
+<Root>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="You do not have the required DLC installed for this save data. Loading has been cancelled."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="This save data has been altered. Loading has been cancelled."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="View this item synthesis event?"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Change costume?"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="No response from costume change device. Could not change target's costume."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="No response from character tracking device. Could not use Zapping."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="There are unsaved entries. Are you sure you want to quit?"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Temporary rest system message (REST_MESSAGE)"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Use Zapping to the Delta side?"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Use Zapping to the Earthes side?"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Withdraw from the mental world, and return to the real world. Is this okay?"/>
+	<SysMess CharaTag="CHARA_KANON" NameTag="NAME_KANON" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Welcome."/>
+	<SysMess CharaTag="CHARA_NAY" NameTag="NAME_NAY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Welcome. What do you need today?"/>
+	<SysMess CharaTag="CHARA_SARLY" NameTag="NAME_SARLY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Oh, welcome. What are you going to do today? Want to make something?"/>
+	<SysMess CharaTag="CHARA_TATTORIA" NameTag="NAME_TATTORIA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Welcome! I've got some great medicine today!"/>
+	<SysMess CharaTag="CHARA_KANON" NameTag="NAME_KANON" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="I received some new inventory the&lt;CR&gt;other day, so please feel free&lt;CR&gt;to take a look."/>
+	<SysMess CharaTag="CHARA_NAY" NameTag="NAME_NAY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Oh right, just so you know, I received some new inventory."/>
+	<SysMess CharaTag="CHARA_SARLY" NameTag="NAME_SARLY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Oh, also, I have a wider selection now. Just let me know if you need anything."/>
+	<SysMess CharaTag="CHARA_TATTORIA" NameTag="NAME_TATTORIA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Oh, that reminds me, I got a few new things in stock. Take a look if you're interested."/>
+	<SysMess CharaTag="CHARA_KANON" NameTag="NAME_KANON" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Please take a look."/>
+	<SysMess CharaTag="CHARA_NAY" NameTag="NAME_NAY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Yeah, buy everything you want!"/>
+	<SysMess CharaTag="CHARA_SARLY" NameTag="NAME_SARLY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Very well. Feel free to take a look."/>
+	<SysMess CharaTag="CHARA_TATTORIA" NameTag="NAME_TATTORIA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Any time! What are you going to buy today?"/>
+	<SysMess CharaTag="CHARA_KANON" NameTag="NAME_KANON" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="How many do you need?"/>
+	<SysMess CharaTag="CHARA_NAY" NameTag="NAME_NAY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Okay, how many?"/>
+	<SysMess CharaTag="CHARA_SARLY" NameTag="NAME_SARLY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="I see. How many would you like?"/>
+	<SysMess CharaTag="CHARA_TATTORIA" NameTag="NAME_TATTORIA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Okay! Just tell me how many you want."/>
+	<SysMess CharaTag="CHARA_KANON" NameTag="NAME_KANON" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="It looks like you don't have enough money..."/>
+	<SysMess CharaTag="CHARA_NAY" NameTag="NAME_NAY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Uh oh. You're short on cash, you know!"/>
+	<SysMess CharaTag="CHARA_SARLY" NameTag="NAME_SARLY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Hm, it seems you're low on funds. I can't just give you free stuff."/>
+	<SysMess CharaTag="CHARA_TATTORIA" NameTag="NAME_TATTORIA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Oh darn... You're low on money. Sorry!"/>
+	<SysMess CharaTag="CHARA_KANON" NameTag="NAME_KANON" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="What are you going to sell?"/>
+	<SysMess CharaTag="CHARA_NAY" NameTag="NAME_NAY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="What are you selling today? I hope it's something interesting."/>
+	<SysMess CharaTag="CHARA_SARLY" NameTag="NAME_SARLY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Have you acquired something interesting? Please show me."/>
+	<SysMess CharaTag="CHARA_TATTORIA" NameTag="NAME_TATTORIA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Oh, alright. What are you selling?"/>
+	<SysMess CharaTag="CHARA_KANON" NameTag="NAME_KANON" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Let me know how many."/>
+	<SysMess CharaTag="CHARA_NAY" NameTag="NAME_NAY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Huh, this thing? So how many are you giving me?"/>
+	<SysMess CharaTag="CHARA_SARLY" NameTag="NAME_SARLY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="This is a very nice item. How many do you wish to sell?"/>
+	<SysMess CharaTag="CHARA_TATTORIA" NameTag="NAME_TATTORIA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Huh, this right? How many are you selling?"/>
+	<SysMess CharaTag="CHARA_KANON" NameTag="NAME_KANON" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="You don't seem to have anything..."/>
+	<SysMess CharaTag="CHARA_NAY" NameTag="NAME_NAY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Hey, you don't have anything!"/>
+	<SysMess CharaTag="CHARA_SARLY" NameTag="NAME_SARLY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="...Do you really have something to sell?"/>
+	<SysMess CharaTag="CHARA_TATTORIA" NameTag="NAME_TATTORIA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Huh? You don't have anything. Just so you know, I won't buy air."/>
+	<SysMess CharaTag="CHARA_KANON" NameTag="NAME_KANON" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Is this correct?"/>
+	<SysMess CharaTag="CHARA_NAY" NameTag="NAME_NAY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Is this alright?"/>
+	<SysMess CharaTag="CHARA_SARLY" NameTag="NAME_SARLY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Everything look good?"/>
+	<SysMess CharaTag="CHARA_TATTORIA" NameTag="NAME_TATTORIA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Is this really okay?"/>
+	<SysMess CharaTag="CHARA_KANON" NameTag="NAME_KANON" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Thank you very much."/>
+	<SysMess CharaTag="CHARA_NAY" NameTag="NAME_NAY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Thanks!"/>
+	<SysMess CharaTag="CHARA_SARLY" NameTag="NAME_SARLY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Thank you."/>
+	<SysMess CharaTag="CHARA_TATTORIA" NameTag="NAME_TATTORIA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Much appreciated!"/>
+	<SysMess CharaTag="CHARA_KANON" NameTag="NAME_KANON" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Please come back again."/>
+	<SysMess CharaTag="CHARA_NAY" NameTag="NAME_NAY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="See you again."/>
+	<SysMess CharaTag="CHARA_SARLY" NameTag="NAME_SARLY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="If you need anything, feel free to come back anytime."/>
+	<SysMess CharaTag="CHARA_TATTORIA" NameTag="NAME_TATTORIA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Thanks a bunch. Come back again."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="There's nobody here..."/>
+	<SysMess CharaTag="CHARA_TATTORIA" NameTag="NAME_TATTORIA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Ooooh! You know that password, so I guess you want to see the menu!"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Welcome!"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Welcome."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Welcome!"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Welcome."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Welcome!"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Is there something you need?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Welcome, foreign travelers."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Welcome."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="New items added."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="New items added."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="New items added."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="New items added."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="New items added."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="New items added."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="New items added."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="New items added."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="What are you buying?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="What do you wish to buy?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Please choose an item."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="I wonder what you're buying?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="What are you buying?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Please select an item to purchase."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Buying something? Here are the items."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="What are you buying?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="How many are you buying?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="How many are you buying?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="How many are you buying?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="How many are you buying?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="How many are you buying?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="How many are you buying?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="How many are you buying?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="How many are you buying?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Uh, you don't have enough money..."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Sorry, you don't seem to have enough money."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="You have insufficient funds to purchase that item."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="I can't sell it if you don't have the money."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="I'm sorry. It looks like you don't have enough money."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="You have insufficient money."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="You can't afford this price."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="You don't have enough money."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="What are you selling?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="What do you wish to sell?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="What is it you're selling?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="What will you sell to me?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Are you going to sell me something?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Please select an item to sell."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Are you selling something?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="What are you selling?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="How many are you selling?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="How many are you selling?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="How many are you selling?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="How many are you selling?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="How many are you selling?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="How many are you selling?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="How many are you selling?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="How many are you selling?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Um, you don't seem to have anything that you can sell."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="I'm sorry, but you don't seem to have anything that you can sell."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="You don't seem to possess anything that you can sell."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="What? You don't have anything that you can sell..."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="You don't have anything that you can sell, you know?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="You don't have any items that can be sold..."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="You don't seem to have anything that I can buy from you, I apologize."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="You've got nothing to sell."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Is this okay?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Does this look acceptable?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Is this really okay?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Is this acceptable?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Is this fine?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Are you sure?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="You're sure, right?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="This is okay, right?"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Thanks!"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Thank you very much."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Thank you so much."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Thank you♪"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Thank you very much♪"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Quite acceptable."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Thank you for your business."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Thank you very much."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Come back again!"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Please come back again."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Come back anytime."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Please come back anytime."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Please come again!"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="I look forward to your next visit."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Please come back sometime."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_ZAKKAYA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="See you again."/>
+	<SysMess CharaTag="CHARA_KANON" NameTag="NAME_KANON" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Understood. Let's prepare for work."/>
+	<SysMess CharaTag="CHARA_NAY" NameTag="NAME_NAY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Okay! Let's do our best today."/>
+	<SysMess CharaTag="CHARA_SARLY" NameTag="NAME_SARLY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Very well. Please tell me what you want to make."/>
+	<SysMess CharaTag="CHARA_TATTORIA" NameTag="NAME_TATTORIA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Alright! What are we mixing up today?"/>
+	<SysMess CharaTag="CHARA_KANON" NameTag="NAME_KANON" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_NAY" NameTag="NAME_NAY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_SARLY" NameTag="NAME_SARLY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_TATTORIA" NameTag="NAME_TATTORIA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_KANON" NameTag="NAME_KANON" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_NAY" NameTag="NAME_NAY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_SARLY" NameTag="NAME_SARLY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_TATTORIA" NameTag="NAME_TATTORIA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_KANON" NameTag="NAME_KANON" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_NAY" NameTag="NAME_NAY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_SARLY" NameTag="NAME_SARLY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_TATTORIA" NameTag="NAME_TATTORIA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_KANON" NameTag="NAME_KANON" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_NAY" NameTag="NAME_NAY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_SARLY" NameTag="NAME_SARLY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_TATTORIA" NameTag="NAME_TATTORIA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_KANON" NameTag="NAME_KANON" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_NAY" NameTag="NAME_NAY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_SARLY" NameTag="NAME_SARLY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_TATTORIA" NameTag="NAME_TATTORIA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_KANON" NameTag="NAME_KANON" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_NAY" NameTag="NAME_NAY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_SARLY" NameTag="NAME_SARLY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_TATTORIA" NameTag="NAME_TATTORIA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_KANON" NameTag="NAME_KANON" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_NAY" NameTag="NAME_NAY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_SARLY" NameTag="NAME_SARLY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_TATTORIA" NameTag="NAME_TATTORIA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_KANON" NameTag="NAME_KANON" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_NAY" NameTag="NAME_NAY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_SARLY" NameTag="NAME_SARLY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_TATTORIA" NameTag="NAME_TATTORIA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Perform Purification?"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Perform Purification with who?"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Please select a costume."/>
+	<SysMess CharaTag="CHARA_ION" NameTag="NAME_ION" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Let's get in."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Let's get in."/>
+	<SysMess CharaTag="CHARA_ION" NameTag="NAME_ION" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="We should get out soon."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="We should get out soon."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Insert this crystal?"/>
+	<SysMess CharaTag="CHARA_ION" NameTag="NAME_ION" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Crystal insertion response: Head"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Crystal insertion response: Head"/>
+	<SysMess CharaTag="CHARA_DELTA" NameTag="NAME_DELTA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Crystal insertion response: Head"/>
+	<SysMess CharaTag="CHARA_AVATAR" NameTag="NAME_AVATAR" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Crystal insertion response: Head"/>
+	<SysMess CharaTag="CHARA_ION" NameTag="NAME_ION" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Crystal insertion response: Breast"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Crystal insertion response: Breast"/>
+	<SysMess CharaTag="CHARA_DELTA" NameTag="NAME_DELTA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Crystal insertion response: Breast"/>
+	<SysMess CharaTag="CHARA_AVATAR" NameTag="NAME_AVATAR" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Crystal insertion response: Breast"/>
+	<SysMess CharaTag="CHARA_ION" NameTag="NAME_ION" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Crystal insertion response: Arms"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Crystal insertion response: Arms"/>
+	<SysMess CharaTag="CHARA_DELTA" NameTag="NAME_DELTA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Crystal insertion response: Arms"/>
+	<SysMess CharaTag="CHARA_AVATAR" NameTag="NAME_AVATAR" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Crystal insertion response: Arms"/>
+	<SysMess CharaTag="CHARA_ION" NameTag="NAME_ION" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Crystal insertion response: Belly"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Crystal insertion response: Belly"/>
+	<SysMess CharaTag="CHARA_DELTA" NameTag="NAME_DELTA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Crystal insertion response: Belly"/>
+	<SysMess CharaTag="CHARA_AVATAR" NameTag="NAME_AVATAR" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Crystal insertion response: Belly"/>
+	<SysMess CharaTag="CHARA_ION" NameTag="NAME_ION" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Crystal insertion response: Legs"/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Crystal insertion response: Legs"/>
+	<SysMess CharaTag="CHARA_DELTA" NameTag="NAME_DELTA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Crystal insertion response: Legs"/>
+	<SysMess CharaTag="CHARA_AVATAR" NameTag="NAME_AVATAR" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="Crystal insertion response: Legs"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="The Purification Ceremony allows&lt;CR&gt;insertion of Genometrica Crystals to&lt;CR&gt;enhance physical abilities."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="&quot;Chat&quot; allows you to talk about specific topics, in order to deepen trust between partners."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="When trust deepens, new places to&lt;CR&gt;insert crystals will become available,&lt;CR&gt;so talk as much as possible."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Try selecting Purification."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Select the partner to insert crystals into. Select the heroine for now."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Select the place to install the crystal."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Select the crystal to insert."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Crystals are obtained through&lt;CR&gt;Genometrics, while install points are&lt;CR&gt;opened by chats that deepen trusts."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="When you obtain a new crystal, you&lt;CR&gt;should try selecting another partner,&lt;CR&gt;and install it to them."/>
+	<SysMess CharaTag="CHARA_DELTA" NameTag="NAME_DELTA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="There's really nothing to talk about..."/>
+	<SysMess CharaTag="CHARA_CASTY" NameTag="NAME_CASTY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="...Yeah."/>
+	<SysMess CharaTag="CHARA_DELTA" NameTag="NAME_DELTA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="There's really nothing to talk about..."/>
+	<SysMess CharaTag="CHARA_KANON" NameTag="NAME_KANON" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="...You're right."/>
+	<SysMess CharaTag="CHARA_DELTA" NameTag="NAME_DELTA" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="There's really nothing to talk about..."/>
+	<SysMess CharaTag="CHARA_NAY" NameTag="NAME_NAY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="...Right."/>
+	<SysMess CharaTag="CHARA_ION" NameTag="NAME_ION" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="There's nothing to talk about..."/>
+	<SysMess CharaTag="CHARA_KANON" NameTag="NAME_KANON" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="There's not really anything to talk about..."/>
+	<SysMess CharaTag="CHARA_NAY" NameTag="NAME_NAY" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SBUC" VoiceNo="-1" Text="There's not much to talk about..."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="In order to maintain the integrity of time, this episode is on standby."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Channel change impossible"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Channel change possible"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" Text="翻訳不要なテキスト"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Withdrawing from battle. Is this okay?"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Would you like to view the flow of combat?"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="You can view &quot;Combat&quot; help from the&lt;CR&gt;Encyclopedia. If there is something&lt;CR&gt;you don't understand, check there."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="When battle begins, select the Song&lt;CR&gt;Magic to use with the &lt;IM00&gt; button."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Once you choose a song, your turn will immediately begin. Use the character in the front line to attack the enemy."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Pressing the directional button will&lt;CR&gt;select targets, while&lt;CR&gt;&lt;IM04&gt;&lt;IM00&gt;&lt;IM06&gt; will perform actions."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="The number of actions that can be taken during a turn is dependent on the button, so remember them."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Once your turn ends, the enemy will&lt;CR&gt;attack. The enemy attacks the heroine,&lt;CR&gt;so your front line will guard them."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="While guarding, you can use the&lt;CR&gt;&lt;IM02&gt; button to put up a shield. This&lt;CR&gt;will reduce damage the heroine takes."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Guarding requires timing. Please be&lt;CR&gt;aware that you can only put up a&lt;CR&gt;limited number of shields per turn."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Enemy attacks will reduce the&lt;CR&gt;heroine's Barriers, and they are&lt;CR&gt;destroyed after a certain point."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="The Barrier has 4 stages, and once all&lt;CR&gt;4 are destroyed, you will get a game&lt;CR&gt;over."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Your actions can also increase Synchro&lt;CR&gt;rate with the heroine, and Harmonics&lt;CR&gt;Level will increase."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="When Harmonics Level increases, you&lt;CR&gt;can activate Song Magic, rate of&lt;CR&gt;increase rises, and other benefits."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Increasing the number of attacks in a  chain will increase the gauge more, so use your actions with good timing."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Your Song Magic has charged up enough. If you activate it now, you can        annihilate all your enemies at once."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Enemy WAVEs that can be defeated by&lt;CR&gt;Song Magic are colored red, so you&lt;CR&gt;will know when to activate."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Except in special battles, you can&lt;CR&gt;only take a limited number of turns,&lt;CR&gt;causing battle to end automatically."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="You can select Song Magic from the     command menu. Press &lt;IM19&gt; and select       &quot;Activate Song.&quot;"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Would you like to view tips for combat advantages?"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="You can view &quot;Combat&quot; help from the&lt;CR&gt;Encyclopedia. If there is something&lt;CR&gt;you don't understand, check there."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="In battle, there are ways to negate enemy actions, or weaken them."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="If you repeatedly use actions on the&lt;CR&gt;same enemy, you can Break them. A&lt;CR&gt;broken enemy cannot attack next turn."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Any action can Break enemies,          but actions tied to the &lt;IM00&gt; button       are especially powerful for this effect."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Some enemies are easier or harder to&lt;CR&gt;Break. Also, certain enemies cannot be&lt;CR&gt;stopped completely by a Break."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="You should keep an eye on enemy&lt;CR&gt;actions and remaining HP, and act&lt;CR&gt;accordingly for an advantage."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="The Song Magic charge gauge will&lt;CR&gt;receive bonuses from various actions.&lt;CR&gt;Depends on Breaks and chain counts."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="The greatest bonus can be obtained     by Breaking all enemies with           upcoming turns."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="This bonus will not lose your turns,&lt;CR&gt;instead Song Magic charge will&lt;CR&gt;increase depending on actions          remaining."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Breaking enemies with the fewest&lt;CR&gt;number of actions, is the most&lt;CR&gt;effective way to take down the enemy."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="There are many other action bonuses.&lt;CR&gt;You should find the bonuses that best&lt;CR&gt;match your style."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Once Harmonics Level reaches 2 or higher, the heroine will begin to support you."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="The heroine's support is great for&lt;CR&gt;attacking, but also makes it easier to&lt;CR&gt;Break, with other benefits."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="The heroine's support depends on&lt;CR&gt;number of chained actions. If you want &lt;CR&gt;more support, raise your chain count."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="Gaining bonuses to increase charge of&lt;CR&gt;Song Magic, is important for gaining&lt;CR&gt;an advantage in combat."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="You should find the methods that best suits your preferences while fighting through a number of battles."/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="敵の種類によって、ブレイクのしやすさは異&lt;CR&gt;なります。また、一部の敵はブレイクしても&lt;CR&gt;完全に攻撃を無効化できないものもいます"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="敵の行動予測や残りＨＰを見ながら、最適な&lt;CR&gt;行動を選択して戦闘を有利に進めてください"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="詩魔法のチャージ量は、行動ターンの行動で&lt;CR&gt;ボーナスが加算されていきます。ボーナスは&lt;CR&gt;ブレイクやチェイン数によって発生します"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="中でも大きなボーナスとなるのが、行動予測&lt;CR&gt;の発生している敵を全てブレイクさせた時に&lt;CR&gt;発生するボーナスです"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="このボーナスは、行動ターンが減らないだけ&lt;CR&gt;でなく、残っていたアクションが多いほど、&lt;CR&gt;詩魔法のチャージ量を上昇させます"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="少ない手数で、行動する前の敵をブレイクさ&lt;CR&gt;せることで、結果的に敵を素早く倒すことが&lt;CR&gt;可能となります"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="他にも色々な行動にボーナスが発生します。&lt;CR&gt;自分のスタイルにあったボーナスを見つけ、&lt;CR&gt;敵を気持ちよく撃破していきましょう"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="ハーモニクスレベルが２以上になると、ヒロ&lt;CR&gt;インが援護してくれるようになります"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="ヒロインの援護によって、敵をさらに撃破し&lt;CR&gt;やすくなるだけでなく、ブレイクも発生させ&lt;CR&gt;やすくなるなどの恩恵があります"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="ヒロインの援護はアクションのチェイン数に&lt;CR&gt;応じて発生します。たくさん援護して欲しい&lt;CR&gt;ときは頑張ってチェイン数を上げてください"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="敵を撃破するためにボーナスを発生させ、詩&lt;CR&gt;魔法のチャージ量を溜めることが戦闘を有利&lt;CR&gt;に進めるために重要となります"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="戦闘を繰り返す中で、敵に応じて有利な戦い&lt;CR&gt;方を見つけ出していってください"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="また、戦闘のヘルプは、メニューの「図鑑」&lt;CR&gt;から確認することが可能です。わからない&lt;CR&gt;ことがあれば確認してみてください。"/>
+	<SysMess CharaTag="CHARA_NONE" NameTag="NAME_NONE" BucTag="BUC_NONE" BalloonMode="BALLOON_MODE_SYSTEM" VoiceNo="-1" Text="タイトルに戻ります。宜しいですか？"/>
+</Root>
