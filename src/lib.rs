@@ -1,42 +1,65 @@
+use std::{io::Write, ffi::{CString, CStr}};
 use skyline::{hooks::InlineCtx, patching::patch_data};
 
-const LOG_UITEXT: &[u8] = &[ 0xef, 0xbc, 0xac, 0xef, 0xbd, 0x8f, 0xef, 0xbd, 0x87, 0x0d, 0x0a, 0x00, 0x00]; // Log, but wide
-const SEND_UITEXT: &[u8] = &[ 0xef, 0xbc, 0xae, 0xef, 0xbd, 0x85, 0xef, 0xbd, 0x98, 0xef, 0xbd, 0x94, 0x00, 0x00]; // Next, but wide
+mod ui;
 
-#[skyline::main(name = "ArNosurgeDeluxeSwitchEngPatch")]
+#[macro_export]
+macro_rules! reg_x {
+    ($ctx:ident, $no:expr) => {
+        unsafe { *$ctx.registers[$no].x.as_ref() }
+    };
+}
+
+#[macro_export]
+macro_rules! reg_w {
+    ($ctx:ident, $no:expr) => {
+        unsafe { *$ctx.registers[$no].w.as_ref() }
+    };
+}
+
+#[macro_export]
+macro_rules! reg_x_mut {
+    ($ctx:ident, $no:expr) => {
+        unsafe { *$ctx.registers[$no].x.as_mut() }
+    };
+}
+
+#[macro_export]
+macro_rules! reg_w_mut {
+    ($ctx:ident, $no:expr) => {
+        unsafe { *$ctx.registers[$no].w.as_mut() }
+    };
+}
+
+#[repr(C)]
+pub struct MenuNameEntry {
+    pub name: *const u8,
+    pub unk1: u32,
+    pub unk2: i32,
+    pub unk3: u32,
+    pub unk4: [f32;4],
+    pub unk5: u32,
+}
+
+#[skyline::hook(offset = 0x19dd30, inline)]
+pub fn battle_name_hook(ctx: &mut InlineCtx) {
+    // Don't use this for now
+    let names : [*const u8;3] = [b"Cass\0".as_ptr() , b"Cass\0".as_ptr(), b"Cass\0".as_ptr()];
+    unsafe { *ctx.registers[8].x.as_mut() = names.as_ptr() as u64; }
+}
+
+#[skyline::main(name = "nosurge")]
 pub fn main() {
-    println!("Hello from skyline plugin");
-    unsafe {
-        const NOP: u32 = 0xD503201F;
-        patch_data(0x001335c4, &NOP).expect("Unable to patch 0x001335c4");
-        patch_data(0x0013369c, &NOP).expect("Unable to patch 0x0013369c");
-    } 
-    skyline::install_hooks!(char_limit_textbox_hook, char_limit_log_hook);
-    skyline::install_hooks!(ui_text_log_hook);
-    skyline::install_hooks!(ui_text_send1_hook, ui_text_send2_hook);
-}
+    // Menu name patches
+    let text_region = unsafe { skyline::hooks::getRegionAddress(skyline::hooks::Region::Text) as *const u8 };
+    // TODO: Un-hardcode the offset? Except if there is no update for the game.
+    let menu_name_entries = unsafe { std::slice::from_raw_parts_mut(text_region.add(0xc94fc0) as *mut MenuNameEntry, 166) };
+    menu_name_entries[5].name = skyline::c_str("Cass\0");
+    menu_name_entries[6].name = skyline::c_str("Ion\0");
+    menu_name_entries[7].name = skyline::c_str("Delta\0");
 
-#[skyline::hook(offset = 0x001335c4, inline)]
-pub fn char_limit_textbox_hook(ctx: &mut InlineCtx) {
-    unsafe { *ctx.registers[1].w.as_mut() = 39; }
-}
+    ui::install_hook();
+    //skyline::install_hook!(name_hook);
 
-#[skyline::hook(offset = 0x0013369c, inline)]
-pub fn char_limit_log_hook(ctx: &mut InlineCtx) {
-    unsafe { *ctx.registers[1].w.as_mut() = 39; }
-}
-
-#[skyline::hook(offset = 0x00136dc0, inline)]
-pub fn ui_text_log_hook(ctx: &mut InlineCtx) {
-    unsafe { *ctx.registers[2].x.as_mut() = LOG_UITEXT.as_ptr() as u64; }
-}
-
-#[skyline::hook(offset = 0x000030ec, inline)]
-pub fn ui_text_send1_hook(ctx: &mut InlineCtx) {
-    unsafe { *ctx.registers[2].x.as_mut() = SEND_UITEXT.as_ptr() as u64; }
-}
-
-#[skyline::hook(offset = 0x00133100, inline)]
-pub fn ui_text_send2_hook(ctx: &mut InlineCtx) {
-    unsafe { *ctx.registers[20].x.as_mut() = SEND_UITEXT.as_ptr() as u64; }
+    println!("Ar noSurge English Patch is now installed");
 }

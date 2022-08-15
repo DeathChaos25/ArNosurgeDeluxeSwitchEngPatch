@@ -2,7 +2,7 @@
 name = "arnosurgedeluxeswitchengpatch"
 version = "0.1.0"
 authors = []
-edition = "2021"
+edition = "2018"
 
 [package.metadata.skyline]
 titleid = "01003cf0128de000" # Ar nosurge: Ode to an Unborn Star Deluxe
