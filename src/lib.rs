@@ -1,5 +1,4 @@
-use std::{io::Write, ffi::{CString, CStr}};
-use skyline::{hooks::InlineCtx, patching::patch_data};
+use skyline::hooks::InlineCtx;
 
 mod ui;
 

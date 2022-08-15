@@ -30,16 +30,16 @@ fn ui_text_send2_hook(ctx: &mut InlineCtx) {
 
 fn nop_patches() { // NOP some UI-related instructions
     unsafe {
-        nop_data(0x001335c4);
-        nop_data(0x0013369c);
+        nop_data(0x001335c4).expect("Should have NOP'd the instruction");
+        nop_data(0x0013369c).expect("Should have NOP'd the instruction");
     }
 }
 
 fn overwrite_names() { // Names that can be patched in place
     unsafe {
-        patch_str(0x006151d9, "Cass").expect("Unable to patch 0x006151d9");
-        patch_str(0x0067399b, "Ion").expect("Unable to patch 0x0067399b");
-        patch_str(0x006151cf, "Delta").expect("Unable to patch 0x006151cf");
+        patch_str(0x006151d9, "Cass").expect("Should have patched the string at 0x006151d9");
+        patch_str(0x0067399b, "Ion").expect("Should have patched the string at 0x0067399b");
+        patch_str(0x006151cf, "Delta").expect("Should have patched the string at 0x006151cf");
     } 
 }
 
