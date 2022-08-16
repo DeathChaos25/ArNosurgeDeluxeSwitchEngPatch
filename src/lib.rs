@@ -42,7 +42,7 @@ pub struct MenuNameEntry {
     pub unk5: u32,
 }
 
-#[skyline::hook(offset = 0x19dc90)]
+#[skyline::hook(offset = 0x19dd60)]
 pub fn get_battle_name_by_id(idx: u32) -> *const u8 {
     let result = call_original!(idx);
 
@@ -54,7 +54,7 @@ pub fn get_battle_name_by_id(idx: u32) -> *const u8 {
 }
 
 /// Don't use this for now
-#[skyline::hook(offset = 0x19dd30, inline)]
+#[skyline::hook(offset = 0x19de04, inline)]
 pub fn battle_name_hook(ctx: &mut InlineCtx) {
     let names = [
         b"Cass\0".as_ptr() , 
@@ -187,13 +187,13 @@ pub fn battle_name_hook(ctx: &mut InlineCtx) {
 }
 
 
-#[skyline::hook(offset = 0x23dbb0, inline)]
+#[skyline::hook(offset = 0x23df9, inline)]
 pub fn encyclopedia_characters_met_left_title_string_hook(ctx: &mut InlineCtx) {
     unsafe { *ctx.registers[1].x.as_mut() = skyline::c_str("Characters\0") as u64; }
 }
 
 // TODO: Move the bio stuff in a /ui/menus/bio.rs module at this point
-#[skyline::hook(offset = 0x23c3a0, inline)]
+#[skyline::hook(offset = 0x23c780, inline)]
 pub fn chara_bio_description_hook(ctx: &mut InlineCtx) {
     // Character length needs fixing through the layout file.
     unsafe { *ctx.registers[20].x.as_mut() = b"Reach enlightenment. Seek the thighs. Avoid the socks.\0\0".as_ptr() as u64; }
