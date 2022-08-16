@@ -187,7 +187,7 @@ pub fn battle_name_hook(ctx: &mut InlineCtx) {
 }
 
 
-#[skyline::hook(offset = 0x23df9, inline)]
+#[skyline::hook(offset = 0x23df90, inline)]
 pub fn encyclopedia_characters_met_left_title_string_hook(ctx: &mut InlineCtx) {
     unsafe { *ctx.registers[1].x.as_mut() = skyline::c_str("Characters\0") as u64; }
 }
