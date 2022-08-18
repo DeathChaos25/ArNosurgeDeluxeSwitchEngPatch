@@ -353,6 +353,19 @@ pub fn main() {
     menu_name_entries[5].name = skyline::c_str("Cass\0");
     menu_name_entries[6].name = skyline::c_str("Ion\0");
     menu_name_entries[7].name = skyline::c_str("Delta\0");
+    menu_name_entries[8].name = skyline::c_str("Earthes\0");
+    menu_name_entries[9].name = skyline::c_str("Kanon\0");
+    menu_name_entries[10].name = skyline::c_str("Nay\0");
+    menu_name_entries[11].name = skyline::c_str("Zill\0");
+    menu_name_entries[12].name = skyline::c_str("Nelico\0");
+    menu_name_entries[13].name = skyline::c_str("Nelo\0");
+    menu_name_entries[14].name = skyline::c_str("Cosal\0");
+    menu_name_entries[15].name = skyline::c_str("Prim\0");
+    menu_name_entries[16].name = skyline::c_str("Renall\0");
+    menu_name_entries[17].name = skyline::c_str("Undou\0");
+    menu_name_entries[18].name = skyline::c_str("Shirotaka\0");
+    menu_name_entries[19].name = skyline::c_str("Tattoria\0");
+    menu_name_entries[20].name = skyline::c_str("Sarly\0");
 
     ui::install_hook();
     skyline::install_hooks!(encyclopedia_characters_met_left_title_string_hook, chara_bio_description_hook, get_battle_name_by_id, battle_name_hook);
