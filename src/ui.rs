@@ -88,7 +88,13 @@ fn button_help_label_hook(ctx: &mut InlineCtx) {
 
         unsafe {
             // Return either the original label or our custom one, with a null-terminator
-            *ctx.registers[1].x.as_mut() = skyline::c_str(&(new_label.to_owned() + "\0")) as u64;
+            let c_label = std::ffi::CString::new(new_label).unwrap();
+
+            // TODO: Free the original pointer
+            *ctx.registers[1].x.as_mut() = c_label.as_ptr() as u64;
+            
+            // Tell the compiler not to free our string
+            std::mem::forget(c_label);
         }
     }
 }
