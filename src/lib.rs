@@ -2,8 +2,8 @@ use std::ffi::CStr;
 
 use skyline::hooks::InlineCtx;
 
-mod ui;
 mod data;
+mod ui;
 
 #[macro_export]
 macro_rules! reg_x {
@@ -38,15 +38,17 @@ pub fn get_battle_name_by_id(idx: u32) -> *const u8 {
     let result = call_original!(idx);
 
     let name = unsafe { CStr::from_ptr(result as _) };
-    
+
     println!("Battle name requested: {}", name.to_str().unwrap());
-    
+
     result
 }
 
 #[skyline::hook(offset = 0x3d07d0, inline)]
 pub fn sixty_fps_hook(ctx: &mut InlineCtx) {
-    unsafe { *ctx.registers[1].x.as_mut() = 0 as u64; }
+    unsafe {
+        *ctx.registers[1].x.as_mut() = 0 as u64;
+    }
 }
 
 #[skyline::main(name = "nosurge")]
@@ -57,9 +59,11 @@ pub fn main() {
 
         let msg = match info.payload().downcast_ref::<&'static str>() {
             Some(s) => *s,
-            None => match info.payload().downcast_ref::<String>() {
-                Some(s) => &s[..],
-                None => "Box<Any>",
+            None => {
+                match info.payload().downcast_ref::<String>() {
+                    Some(s) => &s[..],
+                    None => "Box<Any>",
+                }
             },
         };
 

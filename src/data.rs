@@ -1,4 +1,4 @@
-use skyline::{ hooks::InlineCtx, patching::patch_str };
+use skyline::{hooks::InlineCtx, patching::patch_str};
 
 use crate::reg_x_mut;
 
@@ -10,7 +10,7 @@ pub struct MenuNameEntry {
     pub unk1: u32,
     pub unk2: i32,
     pub unk3: u32,
-    pub unk4: [f32;4],
+    pub unk4: [f32; 4],
     pub unk5: u32,
 }
 
@@ -40,8 +40,8 @@ fn dialogue_name_patch() {
 #[skyline::hook(offset = 0x19de00, inline)]
 fn battle_name_hook(ctx: &mut InlineCtx) {
     let names = [
-        b"Cass\0".as_ptr() , 
-        b"Ion\0".as_ptr(), 
+        b"Cass\0".as_ptr(),
+        b"Ion\0".as_ptr(),
         b"Delta\0".as_ptr(),
         b"Earthes\0".as_ptr(),
         b"Kanon\0".as_ptr(),
@@ -307,19 +307,20 @@ fn battle_name_hook(ctx: &mut InlineCtx) {
         b"NPC Frame\0".as_ptr(),
         b"NPC Frame\0".as_ptr(),
         b"NPC Frame\0".as_ptr(),
-        b"NPC Frame\0".as_ptr()
-        ];
+        b"NPC Frame\0".as_ptr(),
+    ];
     let original_list = unsafe { std::slice::from_raw_parts_mut(reg_x_mut!(ctx, 8) as *mut *const u8, names.len()) };
 
     original_list.copy_from_slice(&names);
 }
 
-fn overwrite_names() { // Names that can be patched in place
+fn overwrite_names() {
+    // Names that can be patched in place
     unsafe {
         patch_str(0x006182b8, "Ion").expect("Should have patched the string at 0x006182b8");
         patch_str(0x006182bf, "Delta").expect("Should have patched the string at 0x006182bf");
         patch_str(0x006182c9, "Cass").expect("Should have patched the string at 0x006182c9");
-    } 
+    }
 }
 
 pub fn install_hook() {
