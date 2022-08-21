@@ -6,6 +6,10 @@ edition = "2018"
 
 [package.metadata.skyline]
 titleid = "01003cf0128de000" # Ar nosurge: Ode to an Unborn Star Deluxe
+package-resources = [
+    { local = "ModFiles/exefs", package = "atmosphere/contents/01003cf0128de000/exefs" },
+    { local = "ModFiles/romfs", package = "atmosphere/contents/01003cf0128de000/romfs" },
+]
 
 [lib]
 crate-type = ["cdylib"]
