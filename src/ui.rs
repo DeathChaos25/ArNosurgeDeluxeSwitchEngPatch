@@ -88,7 +88,7 @@ fn button_help_label_hook(ctx: &mut InlineCtx) {
 
         unsafe {
             // Return either the original label or our custom one, with a null-terminator
-            *ctx.registers[1].x.as_mut() = skyline::c_str(&new_label.to_owned())) as u64;
+            *ctx.registers[1].x.as_mut() = skyline::c_str(&(new_label.to_owned() + "\0")) as u64;
         }
     }
 }
