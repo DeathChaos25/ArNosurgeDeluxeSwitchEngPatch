@@ -62,6 +62,10 @@ fn button_help_label_hook(ctx: &mut InlineCtx) {
         let new_label: &str = match crc32 {
             // Sample
             // 0x69 => "Schlong",
+            0xd79d3a50 => "<IM06>Menu",
+            0xe0b77043 => "<IM30>Dash ON",
+            0xf1984651 => "Jump",
+            0xa235d8ba => "Save",
             _ => {
                 // If we're not handling that crc32, open a file at the root of the SD with append permissions.
                 let mut label_file = std::fs::File::options()
@@ -71,7 +75,7 @@ fn button_help_label_hook(ctx: &mut InlineCtx) {
                 .expect("Should have opened the arnosurge_buttonhelp_label.txt file");
 
                 // Add the label and matching crc32 to the file
-                label_file.write(format!("ButtonHelp label '{}' was received, matching CRC32: {:#x}\n", label, crc32).as_bytes())
+                label_file.write(format!("ButtonHelp label '{}' was received, matching CRC32: {:#x}\n", &label, crc32).as_bytes())
                 .expect("Could not write ButtonHelp label to file");
 
                 // Return the original label
@@ -81,7 +85,7 @@ fn button_help_label_hook(ctx: &mut InlineCtx) {
 
         unsafe {
             // Return either the original label or our custom one, with a null-terminator
-            *ctx.registers[1].x.as_mut() = skyline::c_str(&(new_label.to_owned() + "\0")) as u64;
+            *ctx.registers[1].x.as_mut() = skyline::c_str(&new_label.to_owned())) as u64;
         }
     }
 }
