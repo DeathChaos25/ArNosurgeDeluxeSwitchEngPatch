@@ -337,6 +337,12 @@ pub fn encyclopedia_characters_met_left_title_string_hook(ctx: &mut InlineCtx) {
     unsafe { *ctx.registers[1].x.as_mut() = skyline::c_str("Characters\0") as u64; }
 }
 
+#[skyline::hook(offset = 0x3d07d0, inline)]
+pub fn sixty_fps_hook(ctx: &mut InlineCtx) {
+    unsafe { *ctx.registers[1].x.as_mut() = 1 as u64; }
+}
+
+
 // TODO: Move the bio stuff in a /ui/menus/bio.rs module at this point
 #[skyline::hook(offset = 0x23c780, inline)]
 pub fn chara_bio_description_hook(ctx: &mut InlineCtx) {
@@ -368,7 +374,27 @@ pub fn main() {
     menu_name_entries[20].name = skyline::c_str("Sarly\0");
 
     ui::install_hook();
-    skyline::install_hooks!(encyclopedia_characters_met_left_title_string_hook, chara_bio_description_hook, get_battle_name_by_id, battle_name_hook);
+    skyline::install_hooks!(encyclopedia_characters_met_left_title_string_hook, chara_bio_description_hook, get_battle_name_by_id, battle_name_hook, sixty_fps_hook);
+
+
+    std::panic::set_hook(Box::new(|info| {
+        let location = info.location().unwrap();
+
+        let msg = match info.payload().downcast_ref::<&'static str>() {
+            Some(s) => *s,
+            None => match info.payload().downcast_ref::<String>() {
+                Some(s) => &s[..],
+                None => "Box<Any>",
+            },
+        };
+
+        let err_msg = format!("thread has panicked at '{}', {}", msg, location);
+        skyline::error::show_error(
+            69,
+            "Skyline plugin as panicked! Please open the details and send a screenshot to the developer, then close the game.\n",
+            err_msg.as_str(),
+        );
+    }));
 
     println!("Ar noSurge English Patch is now installed");
 }
