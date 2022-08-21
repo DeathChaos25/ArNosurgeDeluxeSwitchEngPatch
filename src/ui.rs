@@ -1,4 +1,8 @@
+use std::io::Write;
+
 use skyline::{hooks::InlineCtx, patching::nop_data};
+
+use crate::reg_x;
 
 pub mod menus;
 
@@ -47,6 +51,41 @@ fn ui_text_send3_hook(ctx: &mut InlineCtx) {
     }
 }
 
+#[skyline::hook(offset = 0x00379f0, inline)]
+fn button_help_label_hook(ctx: &mut InlineCtx) {
+    // Make sure the string we received is not empty, so we don't panic if it is
+    if let Ok(label) = unsafe { skyline::try_from_c_str(reg_x!(ctx, 1) as _) } {
+        // Turn the string into a crc32 early for reusability
+        let crc32 = crc32fast::hash(label.as_bytes());
+
+
+        let new_label: &str = match crc32 {
+            // Sample
+            // 0x69 => "Schlong",
+            _ => {
+                // If we're not handling that crc32, open a file at the root of the SD with append permissions.
+                let mut label_file = std::fs::File::options()
+                .create(true)
+                .append(true)
+                .open("sd:/arnosurge_buttonhelp_labels.txt")
+                .expect("Should have opened the arnosurge_buttonhelp_label.txt file");
+
+                // Add the label and matching crc32 to the file
+                label_file.write(format!("ButtonHelp label '{}' was received, matching CRC32: {:#x}\n", label, crc32).as_bytes())
+                .expect("Could not write ButtonHelp label to file");
+
+                // Return the original label
+                &label
+            },
+        };
+
+        unsafe {
+            // Return either the original label or our custom one, with a null-terminator
+            *ctx.registers[1].x.as_mut() = skyline::c_str(&(new_label.to_owned() + "\0")) as u64;
+        }
+    }
+}
+
 fn nop_patches() {
     // NOP some UI-related instructions
     unsafe {
@@ -62,6 +101,6 @@ pub fn install_hook() {
     menus::install_hooks();
 
     skyline::install_hooks!(char_limit_textbox_hook, char_limit_log_hook);
-    skyline::install_hook!(ui_text_log_hook);
-    skyline::install_hooks!(ui_text_send1_hook, ui_text_send2_hook, ui_text_send3_hook);
+    skyline::install_hook!(button_help_label_hook);
+    // skyline::install_hooks!(ui_text_log_hook, ui_text_send1_hook, ui_text_send2_hook, ui_text_send3_hook);
 }
