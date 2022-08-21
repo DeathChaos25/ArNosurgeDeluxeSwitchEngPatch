@@ -67,6 +67,8 @@ fn button_help_label_hook(ctx: &mut InlineCtx) {
             0xf1984651 => "<IM02>Jump",
             0xa235d8ba => "<IM00>Save",
             0xe380ef16 => "<IM26>Move",
+            0xeeb15882 => "<IM02>Leave",
+            0xef15d583 => "<IM00>Confirm",
             _ => {
                 // If we're not handling that crc32, open a file at the root of the SD with append permissions.
                 let mut label_file = std::fs::File::options()
