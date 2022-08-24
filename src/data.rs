@@ -1,4 +1,4 @@
-use skyline::{hooks::InlineCtx, patching::patch_str};
+use skyline::{hooks::InlineCtx, patching::Patch};
 
 use crate::reg_x_mut;
 
@@ -316,11 +316,10 @@ fn battle_name_hook(ctx: &mut InlineCtx) {
 
 fn overwrite_names() {
     // Names that can be patched in place
-    unsafe {
-        patch_str(0x006182b8, "Ion").expect("Should have patched the string at 0x006182b8");
-        patch_str(0x006182bf, "Delta").expect("Should have patched the string at 0x006182bf");
-        patch_str(0x006182c9, "Cass").expect("Should have patched the string at 0x006182c9");
-    }
+
+    Patch::in_text(0x006182b8).cstr("Ion").expect("Should have patched the string at 0x006182b8");
+    Patch::in_text(0x006182bf).cstr("Delta").expect("Should have patched the string at 0x006182bf");
+    Patch::in_text(0x006182c9).cstr("Cass").expect("Should have patched the string at 0x006182c9");
 }
 
 pub fn install_hook() {
