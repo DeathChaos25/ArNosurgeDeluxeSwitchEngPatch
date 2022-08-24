@@ -62,6 +62,8 @@ fn button_help_label_hook(ctx: &mut InlineCtx) {
         let new_label: &str = match crc32 {
             // Sample
             // 0x69 => "Schlong",
+            0x96b58f65 => "<IM02><IM00>Next",
+            0x899f17bd => "<IM06>Log",
             0xd79d3a50 => "<IM06>Menu",
             0xe0b77043 => "<IM30>Dash ON",
             0xf1984651 => "<IM02>Jump",
