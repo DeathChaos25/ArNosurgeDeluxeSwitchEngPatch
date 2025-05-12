@@ -25,3 +25,9 @@ Extract the contents of this mod using something like 7zip, and you should get a
   
 ENGLISH DUB:  
 - If you do not want the included English dub, delete the "Data" folder that is included inside the romfs folder from the extracted mod files.
+  
+  
+![Screenshot 2025-05-12 16-52-32](https://github.com/user-attachments/assets/75880873-6be0-41a1-9afd-78bd2e57e43c)
+![Screenshot 2025-05-12 16-52-55](https://github.com/user-attachments/assets/7f444aa4-bc8b-4db9-ba10-bb20340b2494)
+![Screenshot 2025-05-12 16-53-06](https://github.com/user-attachments/assets/d9e980b5-0d58-4451-b0bc-aa4096344817)
+![Screenshot 2025-05-12 16-54-05](https://github.com/user-attachments/assets/8d056df3-e614-4919-ad88-762590bac3bb)
